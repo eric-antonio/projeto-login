@@ -39,7 +39,7 @@
 
 
    transition: width .3s, heiht .3s;
-   -o-transition-timing-function: ease;
+   transition-timing-function: ease;
  }
 
  section#login > div#imagem{
