@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* Media Query para Tablets */
+@media only screen and (min-width: 768px ) {
+    body{
+        background-image: linear-gradient(to top, #1E6C9A,#1D2146);
+     
+    }
+    section#login{
+        /* Section Principal que contem todos os componentes da tela */
+        width: 90vw;
+   
+    }
+
+    section#login > div#imagem{
+        /* Div que contem a imagem! */
+        float: left;
+        width: 40%;
+        height: 100%;
+
+    }
+    section#login> div#formulario{
+        /* Div que contem o conteudo! */
+        float: right;
+        width: 60%;
+    }
+}
+
+
+/* Media Query para Laptps/Deskyops & TV'S */
+@media only screen and (min-width: 992px)  {
+
+    body{
+        background-image: linear-gradient(to top, #4EC8E9,#1D2146);
+     
+    }
+    section#login {
+        width: 90%;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#login> div#formulario{
+        /* Div que contem o conteudo! */
+        float: right;
+        width: 60%;
+    }
+
+}
