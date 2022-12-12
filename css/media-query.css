@@ -24,6 +24,14 @@
         float: right;
         width: 60%;
     }
+
+    div#formulario > h1{
+        font-size: 1.9em;
+    }
+
+    div#formulario > p{
+        font-size: 1.1em;
+     }
 }
 
 
@@ -48,6 +56,12 @@
         /* Div que contem o conteudo! */
         float: left;
         width: 60%;
+    }
+    div#formulario > h1{
+        font-size: 2.1em;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
     }
 
 }
